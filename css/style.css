@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.html, body {
+    height: 100%;
+}
+
+.parent {
+    display: flex;
+}
+
+
+.sidebar {
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    background-color: #2b89e2;
+}
+
+.sidebar-pos {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.img-sidebar {
+    text-align: center;
+}
+
+.img-sidebar img {
+    width: 80%;
+    border: 8px solid #54a9f8;
+    border-radius: 50%;
+}
+
+.menu {
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.menu a {
+    color: #fff;
+    opacity: 0.4;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.menu a.selected {
+    opacity: 1;
+} 
+
+.content {
+    position: absolute;
+    left: 15%;
+    width: 85%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 10%;
+}
+
+section.descricao {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+section.descricao h2 {
+    margin-top: 10px;
+    color: #343a40;
+    font-size: 75px;
+    text-transform: uppercase;
+}
+
+section.descricao h2 > span, section.descricao h3 > span {
+    color: #2b89e2;
+}
+
+section.descricao h3 {
+    margin: 15px 0 0;
+    color: #6c757d;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+section.descricao p {
+    color: #6c757d;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.icon-social {
+    margin-top: 20px;
+}
+
+.icon-social a {
+    text-decoration: none;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 0 0 10px;
+}
+
+/*.traco h1:before {
+    content: "";
+    display: block;
+    width: 356px;
+    height: 3px;
+    background:#2b89e2;
+    margin-top: 10px;
+}*/
